@@ -14,7 +14,7 @@ def chat_gpt(prompt):
 if __name__ == "__main__":
     while True:
         user_input = input("you: ")
-        if user_input in ["exit", "qiut", "bye"]:
+        if user_input in ["exit", "quit"]:
             break
         response = chat_gpt(user_input)
         print("chatbot: ", response)

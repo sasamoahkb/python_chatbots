@@ -21,7 +21,7 @@ if __name__ == "__main__":
     getAssistantType()
     while True:
         user_input = input("you: ")
-        if user_input in ["exit", "qiut", "bye"]:
+        if user_input in ["exit", "quit"]:
             break
         
         response = chat_with_bot(user_input)
