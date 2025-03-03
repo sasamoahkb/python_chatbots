@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="PRIVATE"
+    api_key=""
 )
 
 def chat_gpt(prompt):
